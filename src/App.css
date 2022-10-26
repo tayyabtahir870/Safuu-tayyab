@@ -1,0 +1,39 @@
+.header-button{
+  color: white;
+  background-color: #34C439;
+  border-color: #34C439 ;
+  border: solid 1px #34C439 ;
+  transform: scale(0.999);
+  border-radius: 20px;
+  padding: 10px 80px;
+  font-size: 2.5rem;
+}
+.header-button1{
+  color: white;
+  background-color: #34C439;
+  border-color: #34C439 ;
+  border: solid 1px #34C439 ;
+  transform: scale(0.999);
+  padding: 16px 40px;
+  font-size: 1.3rem;
+
+}
+.header-button2{
+  color: white;
+  background-color: #011101;
+  border-color: #012B04 ;
+  border: solid 1px #34C439 ;
+  transform: scale(0.999);
+  border-radius: 4px;
+  padding: 16px 40px;
+  font-size: 1.3rem;
+}
+.colorline{
+  color: #34C439;
+  border-width: 3.5px;
+}
+body{
+  background-image: url('Media/bg-img.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
