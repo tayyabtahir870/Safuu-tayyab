@@ -37,3 +37,20 @@ body{
  background-size: cover;
  background-repeat: no-repeat;
 }
+
+.sidebar-button{
+  color: white;
+  background-color:#011A01;
+  border-color: #012B04 ;
+  border:  #011A01 ;
+  transform: scale(0.999);
+  border-radius: 4px;
+  padding: 16px 40px;
+  font-size: 1.3rem;
+
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
