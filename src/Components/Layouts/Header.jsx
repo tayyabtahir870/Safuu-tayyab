@@ -6,10 +6,12 @@ import {SiMedium} from 'react-icons/si'
 
 function Header() {
   return (
-    <div>
-         <div className="header bg-black  p-3  ">
-        <nav class="navbar navbar-expand-lg   ">
-          <div class="container-fluid ">
+    
+      
+         <div>
+        <nav class="navbar navbar-expand-lg  py-5   ">
+          <div class=" container-fluid bg-black position-fixed  header py-2 ">
+          
             <a class="navbar-brand" href="/">
             <button className='header-button'><b>SAFUU</b></button>
             </a>
@@ -31,23 +33,23 @@ function Header() {
                   <li class="nav-item"></li>
                   <li class="nav-item">
                     <a className="nav-link mt-3 " to='/technology'>
-                      < BsTwitter color='white' size={30}/>
+                      < BsTwitter color='white' size={25}/>
                     </a> 
                    
                   </li>{" "} 
                   <li class="nav-item">
                     <a class="nav-link mt-3" to='/community'>
-                      <FaDiscord color='white' size={30}/>
+                      <FaDiscord color='white' size={25}/>
                     </a>
                   </li>{" "} 
                   <li class="nav-item">
                     <a class="nav-link mt-3" to='/aboutpage'>
-                     <FaTelegramPlane color='white' size={30}/>
+                     <FaTelegramPlane color='white' size={25}/>
                     </a>
                   </li>{" "} 
                   <li class="nav-item">
                     <a class="nav-link mt-3" to="/blog">
-                    <SiMedium color='white' size={30}/>
+                    <SiMedium color='white' size={25}/>
                     </a>
                   </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
@@ -63,11 +65,19 @@ function Header() {
                 </ul>
               </div>
             </div>
+           
           </div>
-        </nav>
-      </div>
-      <hr className='colorline' />
-    </div>
+          </nav>
+          </div>
+          
+        
+       
+     
+   
+    
+  
+    
+   
     
   )
 }
