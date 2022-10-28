@@ -3,8 +3,7 @@
   background-color: #34C439;
   border-color: #34C439 ;
   border: solid 1px #34C439 ;
-  transform: scale(0.999);
-  border-radius: 20px;
+    border-radius: 20px;
   padding: 5px 60px;
   font-size: 2.5rem;
 }
@@ -13,8 +12,7 @@
   background-color: #34C439;
   border-color: #34C439 ;
   border: solid 1px #34C439 ;
-  transform: scale(0.999);
-  padding: 8px 30px;
+    padding: 8px 30px;
   font-size: 1.3rem;
 
 }
@@ -23,9 +21,7 @@
   background-color: #011101;
   border-color: #012B04 ;
   border: solid 1px #34C439 ;
-  transform: scale(0.999);
-  border-radius: 4px;
-  padding: 8px 40px;
+      padding: 8px 40px;
   font-size: 1.3rem;
 }
 .colorline{
@@ -75,7 +71,7 @@ border-radius: 10px;
   flex-direction: column;
 }
 .dashboard1{
-  margin-left: 500px;
+  margin-left:500px;
   margin-top: 20px;
 }
 .hero-button{
@@ -83,9 +79,7 @@ border-radius: 10px;
   background-color: #010901;
   border-color: #0b6a0e ;
   border: solid 1px #0b6a0e ;
-  transform: scale(0.999);
-  border-radius: 4px;
-  padding: 20px;
+      padding: 20px;
   border-radius: 15px;
 }
 
@@ -100,7 +94,68 @@ border-radius: 10px;
 .hero1{
   padding-top: 5rem;
 }
-.table{
+.table1{
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  
+
 }
+
+.dashboard2{
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.swapbutton{
+  padding-left: 220px;
+  padding-right: 220px;
+
+}
+
+.swap-button{
+  color: white;
+background-color: #010901;
+border-color: #3b357a ;
+border: solid 1px #3b357a ;
+padding: 20px;
+border-radius: 15px;
+}
+.cal{
+  color: rgb(133, 130, 130);
+}
+.cal-button{
+  color: white;
+background-color: #010901;
+border-color: white ;
+border: solid 1px white ;
+
+padding: 8px;
+border-radius: 10px;
+
+}
+
+.dashboard3{
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.analytics-button{
+  color: white;
+background-color: #010901;
+border-color: #0b6a0e ;
+border: solid 1px #0b6a0e ;
+
+padding: 8px;
+border-radius: 10px;
+
+}
+.dashboard5{
+  margin-left: 500px;
+  margin-top: 20px;
+  margin-right: 100px;
+  height: 90vh;
+}
+
+
+
