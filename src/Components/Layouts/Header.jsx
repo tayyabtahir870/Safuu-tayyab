@@ -1,19 +1,26 @@
-import React from 'react'
-import {BsTwitter} from 'react-icons/bs'
-import {FaDiscord} from 'react-icons/fa'
-import {FaTelegramPlane} from 'react-icons/fa'
-import {SiMedium} from 'react-icons/si'
+import React from "react";
+import { BsTwitter } from "react-icons/bs";
+import { FaDiscord } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { SiMedium } from "react-icons/si";
+import Drawer from "../Elements/Drawer";
 
 function Header() {
   return (
-    
-      
-         <div>
+    <div>
+      <div className="container drawer-set p-3">
+        <Drawer />
+
+        <hr className="line-drawer" />
+      </div>
+
+      <div className="header-set">
         <nav class="navbar navbar-expand-lg  py-5   ">
           <div class=" container-fluid bg-black position-fixed  header py-2 ">
-          
             <a class="navbar-brand" href="/">
-            <button className='header-button'><b>SAFUU</b></button>
+              <button className="header-button">
+                <b>SAFUU</b>
+              </button>
             </a>
 
             <button
@@ -32,54 +39,50 @@ function Header() {
                 <ul class="navbar-nav">
                   <li class="nav-item"></li>
                   <li class="nav-item">
-                    <a className="nav-link mt-3 " to='/technology'>
-                      < BsTwitter color='white' size={25}/>
-                    </a> 
-                   
-                  </li>{" "} 
-                  <li class="nav-item">
-                    <a class="nav-link mt-3" to='/community'>
-                      <FaDiscord color='white' size={25}/>
+                    <a className="nav-link mt-3 " to="/technology">
+                      <BsTwitter color="white" size={25} />
                     </a>
-                  </li>{" "} 
+                  </li>{" "}
                   <li class="nav-item">
-                    <a class="nav-link mt-3" to='/aboutpage'>
-                     <FaTelegramPlane color='white' size={25}/>
+                    <a class="nav-link mt-3" to="/community">
+                      <FaDiscord color="white" size={25} />
                     </a>
-                  </li>{" "} 
+                  </li>{" "}
+                  <li class="nav-item">
+                    <a class="nav-link mt-3" to="/aboutpage">
+                      <FaTelegramPlane color="white" size={25} />
+                    </a>
+                  </li>{" "}
                   <li class="nav-item">
                     <a class="nav-link mt-3" to="/blog">
-                    <SiMedium color='white' size={25}/>
+                      <SiMedium color="white" size={25} />
                     </a>
-                  </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </li>{" "}
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
                     <a class="nav-link " to="/build">
-                    <button className='header-button2'><b>SAFUU</b></button>
+                      <button className="header-button2">
+                        <b>SAFUU</b>
+                      </button>
                     </a>
-                  </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </li>{" "}
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <li class="nav-item">
                     <a class="nav-link" to="/contact">
-                    <button className='header-button1'><b>Connect Wallet</b></button>
+                      <button className="header-button1">
+                        <b>Connect Wallet</b>
+                      </button>
                     </a>
-                  </li>{" "} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </li>{" "}
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
               </div>
             </div>
-           
           </div>
-          </nav>
-          </div>
-          
-        
-       
-     
-   
-    
-  
-    
-   
-    
-  )
+        </nav>
+      </div>
+    </div>
+  );
 }
 
-export default Header
+export default Header;

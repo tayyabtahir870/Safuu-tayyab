@@ -5,7 +5,13 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 function Swap() {
   return (
-    <div className="dashboard2  hero-button">
+    <div className="container  hero1">
+      <div className="row">
+        <div className="col-md-4"></div>
+
+      
+    <div className="col-md-7 ">
+      <div className="card hero-card py-3 px-3 ">
       <div className="table1 ">
         <h5 className="fw-bold">S w a p</h5>
        <div className="d-flex">
@@ -71,7 +77,7 @@ function Swap() {
       </div>
 
       <div className="text-center">
-        <button className="header-button1 swapbutton ">
+        <button className="header-button1  ">
           <b>Connect Wallet</b>
         </button>
       </div>
@@ -99,6 +105,9 @@ function Swap() {
           <h5>SAFUU --  BNB</h5>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }

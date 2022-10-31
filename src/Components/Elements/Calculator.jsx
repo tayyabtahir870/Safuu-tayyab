@@ -4,7 +4,11 @@ import React from "react";
 function Calculator() {
     
   return (
-    <div className="dashboard3  hero-button">
+    <div className="container hero1" >
+      <div className="row">
+        <div className="col-md-4"></div>
+        <div className="col-md-7">
+    <div className="  card hero-card py-3 px-3">
       <div>
         <h5>Calculator</h5>
         <h5>Estimate your returns</h5>
@@ -100,6 +104,9 @@ function Calculator() {
           </div>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }

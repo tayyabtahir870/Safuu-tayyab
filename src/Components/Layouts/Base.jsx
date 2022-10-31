@@ -1,17 +1,13 @@
-import React from 'react'
-import Header from './Header'
-import Sidebar from './Sidebar'
+import React from "react";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 
-
-
-
-function Base( props) {
+function Base(props) {
   return (
     <div>
-     
-      <Header/>
+      <Header />
       <div ps={["unset", "unset", "4"]} display="flex">
-       <Sidebar/>
+        <Sidebar />
         <div
           as="main"
           w={["full", "full", "cal(100%-250px"]}
@@ -23,8 +19,7 @@ function Base( props) {
         </div>
       </div>
     </div>
-    
-  )
+  );
 }
 
-export default Base
+export default Base;

@@ -2,11 +2,17 @@ import React from "react";
 
 function Analytics() {
   return (
-    <div className="dashboard5 hero-button ">
+    <div className="container hero1">
+      <div className="row"> 
+      <div className="col-md-2"></div>
+      <div className="col-md-10">
+
+      
+   
       <div class="container text-center ">
         <div class="row">
           <div class="col">
-            <div className="hero-button">
+            <div className="card hero-card py-3 px-3">
               <h5>How much you have invested so far?</h5>
               <img
                 src="https://app.safuu.com/static/media/earn.0f7dcd87.png"
@@ -21,7 +27,7 @@ function Analytics() {
           </div>
 
           <div class="col">
-            <div className="hero-button">
+            <div className="card hero-card py-3 px-3">
               <h5>Risk Meter</h5>
               <img
                 src="https://app.safuu.com/static/media/metrc-bg.be1bb429.png "
@@ -32,7 +38,7 @@ function Analytics() {
           </div>
 
           <div class="col">
-            <div className="hero-button">
+            <div className="card hero-card py-3 px-3">
               <h5>How much you have withdrawn so far?</h5>
               <img
                 src="https://app.safuu.com/static/media/lose.45a4bceb.png"
@@ -47,7 +53,7 @@ function Analytics() {
           </div>
         </div>
       </div>
-
+      <div className=" card hero-card py-3 px-3 ">
       <div class="container text-center">
         <div class="row">
           <div class="col my-5"></div>
@@ -60,9 +66,9 @@ function Analytics() {
         </div>
       </div>
 
-      <div class="container text-center header ">
+      <div class="container text-center  ">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-2 ">
            <text className="color">Transaction Hash</text>
           </div>
           <div class="col-md-2">
@@ -89,9 +95,14 @@ function Analytics() {
             <text className="color">$ BNB</text>
 
           </div>
+           
+           <hr className="line-analytics" />
           
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }
